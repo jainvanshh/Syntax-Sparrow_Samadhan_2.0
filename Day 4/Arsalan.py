@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.get("/hello")
+@app.get("/SyntaxSparrow")
 def hello_world():
     return "Hello World"
 
